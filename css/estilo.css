@@ -1,0 +1,29 @@
+main{
+    margin: 0;
+    padding: 0;
+}
+/* estilo producto.html */
+.reset {
+    all: revert;
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.resett{
+    all: revert;
+    font-size: xx-large;
+}
+.btns{
+    display: flex;
+}
+.btn1{
+    padding-left: 10%;
+    padding-bottom: 30px;
+}
+.btn2{
+    padding-left: 45%;
+    padding-bottom: 30px;
+}
+

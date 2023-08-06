@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <main>    
+        <form action="/mensaje.html" class="was-validated">
+            <fieldset class="reset">
+                <legend class="resett">Registro de productos</legend>
+                <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Código:</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" placeholder="Introduzca el código" required>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Descripción:</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" placeholder="Introduzca descripción" required>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Código de barra:</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" placeholder="Introduzca código de barra" required>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Precio:</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" placeholder="Introduzca precio" required>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Stock:</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" placeholder="Introduzca stock" required>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Proveedor:</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" placeholder="Introduzca proveedor" required>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Estado:</label>
+                    <div class="col-sm-2">
+                        <input class="form-check-input" type="checkbox" name="estado">
+                        <label class="form-check-label">
+                            Activo
+                          </label>
+                    </div>
+                  </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-2 col-form-label">Categoría</label>
+                        <div class="col-sm-9">
+                            <select class="form-select" required>
+                                <option selected disabled value="">Categoría...</option>
+                                <option value="Categoría 1">Categoría 1</option>
+                                <option value="Categoría 2">Categoría 2</option>
+                                <option value="Categoría 3">Categoría 3</option>
+                                <option value="Categoría 4">Categoría 4</option>
+                              </select>
+                              <div class="invalid-feedback">
+                                Elige una categoría válida.
+                              </div>
+                          </div>
+                      </div>
+                <div class="btns">
+                    <div class="btn1">
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                    </div>
+                    <div class="btn2">
+                        <button type="reset" class="btn btn-secondary">Cancelar</button>
+                    </div>
+                </div>
+            </fieldset>
+    </form>
+    </main>
+</body>
+</html>
